@@ -470,7 +470,12 @@
                 <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.11"></script>
                 <script>
                     var typed = new Typed("#subtitle", {
-                        strings: ['从来没有真正的绝境, 只有心灵的迷途','花开不是为了花落，而是为了开的更加灿烂。''没有伞的孩子必须努力奔跑！','欲望以提升热忱，毅力以磨平高山。''如果放弃太早，你永远都不知道自己会错过什么。','没有礁石，就没有美丽的浪花；没有挫折，就没有壮丽的人生。'],
+                        strings: ['从来没有真正的绝境, 只有心灵的迷途',
+                                  '花开不是为了花落，而是为了开的更加灿烂。',
+                                  '没有伞的孩子必须努力奔跑！',
+                                  '欲望以提升热忱，毅力以磨平高山。',
+                                  '如果放弃太早，你永远都不知道自己会错过什么。',
+                                  '没有礁石，就没有美丽的浪花；没有挫折，就没有壮丽的人生。'],
                         startDelay: 300,
                         typeSpeed: 100,
                         loop: true,
@@ -607,41 +612,6 @@
                     
 
                     
-                        
-
-<link rel="stylesheet" href="/libs/aplayer/APlayer.min.css">
-<div class="music-player">
-    
-    <div class="title center-align">
-        <i class="fas fa-music"></i>&nbsp;&nbsp;听听音乐
-    </div>
-    
-    <div class="row">
-        <div class="col l8 offset-l2 m10 offset-m1 s12">
-            <div id="aplayer" class="music"></div>
-        </div>
-    </div>
-</div>
-
-<script src="/libs/aplayer/APlayer.min.js"></script>
-<script>
-$(function () {
-    new APlayer({
-        container: document.getElementById('aplayer'),
-        fixed: 'false' === 'true',
-        autoplay: 'false' === 'true',
-        theme: '#42b983',
-        loop: 'all',
-        order: 'list',
-        preload: 'auto',
-        volume: Number('0.7'),
-        listFolded: 'false' === 'true',
-        listMaxHeight: '',
-        audio: eval([{"name":"It Must Be Love","artist":"Alan Jackson","url":"https://music.163.com/song?id=16349843&userid=109849299","cover":"http://xxx.com/music-cover1.png"},{"name":"Take me hand","artist":"DAISHI DANCE,Cecile Corbel","url":"/medias/music/music2.mp3","cover":"/medias/music/cover2.png"},{"name":"Shape of You","artist":"J.Fla","url":"http://xxx.com/music3.mp3","cover":"http://xxx.com/music-cover3.png"}])
-    });
-});
-</script>
-                    
 
                     
 
@@ -659,6 +629,41 @@ $(function () {
     </div>
     
 
+    
+        
+
+<link rel="stylesheet" href="/libs/aplayer/APlayer.min.css">
+<div class="">
+    
+    <div class="title center-align">
+        <i class="fas fa-music"></i>&nbsp;&nbsp;听听音乐
+    </div>
+    
+    <div class="row">
+        <div class="col l8 offset-l2 m10 offset-m1 s12">
+            <div id="aplayer" class="music"></div>
+        </div>
+    </div>
+</div>
+
+<script src="/libs/aplayer/APlayer.min.js"></script>
+<script>
+$(function () {
+    new APlayer({
+        container: document.getElementById('aplayer'),
+        fixed: 'true' === 'true',
+        autoplay: 'false' === 'true',
+        theme: '#42b983',
+        loop: 'all',
+        order: 'list',
+        preload: 'auto',
+        volume: Number('0.7'),
+        listFolded: 'true' === 'true',
+        listMaxHeight: '',
+        audio: eval([{"name":"It Must Be Love","artist":"Alan Jackson","url":"https://music.163.com/song?id=16349843&userid=109849299","cover":"http://xxx.com/music-cover1.png"},{"name":"Take me hand","artist":"DAISHI DANCE,Cecile Corbel","url":"/medias/music/music2.mp3","cover":"/medias/music/cover2.png"},{"name":"Shape of You","artist":"J.Fla","url":"http://xxx.com/music3.mp3","cover":"http://xxx.com/music-cover3.png"}])
+    });
+});
+</script>
     
 
     
