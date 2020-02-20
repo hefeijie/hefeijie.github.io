@@ -5,13 +5,7 @@
 <head>
     <meta charset="utf-8">
     <meta name="keywords" content="加工中心训练图, 机械制造,教学">
-    <meta name="description" content="
-  
-  
-    请输入密码以阅读这篇私密文章。
-    
-  
-  da7a97ded9596b74df0502c5d0801ea077cf23708aff97fb108df0004b7cca6666c9f815b0b8b4a3e68">
+    <meta name="description" content="因属于技术文件，请联系作者获取密码">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
     <meta name="renderer" content="webkit|ie-stand|ie-comp">
@@ -413,6 +407,19 @@
 </header>
 
     
+<script src="/libs/cryptojs/crypto-js.min.js"></script>
+<script>
+    (function() {
+        let pwd = '3ce1f13f756a4ab896d2307f48c2af67df7c8db302a8dbfa69dceaeee27050ab';
+        if (pwd && pwd.length > 0) {
+            if (pwd !== CryptoJS.SHA256(prompt('请输入访问本文章的密码')).toString(CryptoJS.enc.Hex)) {
+                alert('密码错误，将返回主页！');
+                location.href = '/';
+            }
+        }
+    })();
+</script>
+
 
 
 
@@ -576,7 +583,7 @@
                 
                 <div class="info-break-policy">
                     <i class="far fa-file-word fa-fw"></i>文章字数:&nbsp;&nbsp;
-                    15
+                    104
                 </div>
                 
 
@@ -599,15 +606,27 @@
         <hr class="clearfix">
         <div class="card-content article-card-content">
             <div id="articleContent">
-                <div id="hexo-blog-encrypt" data-wpm="Oh, this is an invalid password. Check and try again, please." data-whm="OOPS, these decrypted content may changed, but you can still have a look.">
-  <div class="hbe-input-container">
-  <input type="password" id="hbePass" placeholder="" />
-    <label for="hbePass">请输入密码以阅读这篇私密文章。</label>
-    <div class="bottom-line"></div>
-  </div>
-  <script id="hbeData" type="hbeData" data-hmacdigest="84835180d020a9d98e3bedcceb8d90ced1a8e664038e6af82cffbf0c16b0bfee">da7a97ded9596b74df0502c5d0801ea077cf23708aff97fb108df0004b7cca6666c9f815b0b8b4a3e685d0c8f370dc8902521924c25c52f31f14f8f20dfef4a0a0a50a15213b354fe9cf1428506c8ea1dab5d079c2d4e9457dcb8c8686294e1a9e6b87172b70db3dd1559b8d5dd21ad0f350bcd00c06810e44e6d112ef377293386f2356c4a782037bab7bf33dc4ff597bc912a9060341e8e860ad9b19f36f9eaaa4335ad3845c56038755014a2a57e3c43fe2f191d73a48b9579ba5c4ed9bdeadac62617649636bc144fb3688d45662a40122078ed002b9dd2ad4f91a4d57b0c8ea74a26e49fcf30d3b85b05263c71a0cefdd5a064a66a71ca8825368f529964f6554070420c2c399588b551e08c41d02018a2944b4e5002af2f68c9ea0608bc46fe1f7f38579c3ce987b05a8f41577a052106621a37e10932946ae6a6d3870918e8d7e782891f3b8d1c0c2603612effcfb2de04fa3177972590e619dcbae0428b771bbe2d306f50a69885ba1f8f390cbac8ab9849b824af069295a9b5e3a4008a41630be4af5cf5ec55f8e84a8483ba0cad093a2293b269ca492eef6b82719a1b77dddade64d593609c2f31f698e46b1b5c1102c8f8d6cb0c13736a5d0896920c1d15ae29cd7327fac28b818b4ed9a9b795d526310e188b72f4f712b5472ba0030a2bf814a43f098c65e07de4a772164fbe75aff45c1127e4bf3d5dfd3d8c79bac01622d925f3727c4980750b02ce614819ce5cbbd859b383b7ad63c03c747494de9159909e0ed0529c8a5974da23e1d519baa90136389a786837468cb8d813ec7750fdd874d22e7027f8e02e268c06911ead598b49849b63353392937dddd653e69cd33ca29f6d74d78e41ffc82441c8da1f9d118d0e4d506b0d7ba3debf0ed4ad79bb0f34d3d71a06554d42ec3b57275944187310ac6092cf1c9cfe8b067f001cd9934090f12b0bd2ca535470f12a5358a8a17bc58fffcc8e56a06886ee4cc2601e58403231488f812e17390b828130718eb13472820c91a162c21e4e6f319c274d3fe9d1a7731838ef11450a955d6cd26a7abd8628622172a853678bc4e06f5ca44f30601f1f1f43a04f1de1835606903c7507cd4777f3507bc658935a12f41a759a16550c9d7bada1684ec396cfea51145b57fff9680bc2353dbe11a869544128314294dfad9fbfd5ad28553184873ecc2dd6deec71d4c77b7bf4da10c03965e93ccb39f18921797cebff0df89a7e2ef5c4791beb6a799b6d7c5c5908ad4114037376f96ac4b5c7611d53756c3c071cce441f28b2d940cf4efa0e16a3e8724ec732af6075d190ea4771877c7277373238eb806f268814ad895cf9d72f9b8aa469421a5e2e7bdd8471241588ae32bd3dc472600fe77e9327196271eafda0945afeaa25e1ab769b9181b5f9ca7e4891d956fa2ce6c45a5d26c384acf80ff5d1019983cbc2798b10a24c7385a8f0be14cf7dc22486286e27436fe74986feaafa9e2f74a26247078d720faf55a168e749e2424238279e5ebc3872252d5bcfd5e10baa8329f88f47f8f0ab16825b1f4ffc6a05ff5c9dbda745069ce3049110020164930558e8bf677f9e0c1b8ea48e37032d885bda07c7ec070f4f35dddc18c11ffb75478caad8018609bbca7bf7c194280dcb8a5284180a63d1d14c6d02c2951b60823d5fd826a0f843ceca735423ece5163258e48b0e69c50ea2a963b49affe7ecc15cceec586e83d89ee69210369ac8c0115128e096b016a4a91c36ddac576b7570420b857f80e17082e9ed3498325e93b56f0c1c447070c2904a3060b69d9c5ed61b30b74d59312eb6516c6165c5b0b59f0578bb5c56c0c789135da8f04a79bf1dca16bd40cc7232d17b1ab9a780f692d789bef6d17a0a8a2f10f11660c5e1404ff06cdc875f54b651cf3829f69e7f4a5fc2eb4ac4ea33a677bcbd36fb5832b7d088801f5fc562cfb143647dec3c87dc38ec76a4ff9d09bf0e4ed1112242966a286a0867a7e7c88a55f8d17c640367d7601e3c7791c0fb0a167088cd814ccd0b9e396259cec149e3a7bc0429cb26abe57287595e57d953d3978b0da56142bb39278b9929cc23ed16f1ba1e893df7fa82f18a1a9a6177042ec2edebebf54575c5feb58fe8b460937a159e69794b57ff1cb6fc57a791b4942f8f330841b7c42416c71b2a27b6e536d8f8e48ac07aae9a48f5720d435c3c8540a2312180b79446d2357480d935f75dc463cbd5d758e7e199c05040f76f5dc5f4a120ac501154883a16f6835c01db059d7ba24b9217411cfa98576cf0764abfb1be99b9b1216e5deabaa32ddaf84ddfc0bbb9f56751baf95a7ebf9247bfb5781fcbfc5fc06bd2682e0a0f2ea621865311d23461d0186cec0f08aab6de7e0f8cc9cfedf1350332059638646ebfebabd82891fb66e42473bd8ac9cdeb0796b6de49eb27869ba487f1f1a3c522d362baef351c8ccf86f1f397b106f7aad945997278d256430a21486c0a4eedc42b22ab21072000c96dd01e3edf9ff337798caa18f8582be88a9ed00ff82579f70f8a90358c20294b2f8ab80a0c4f821a017abd25d7a8942e70220604bb6511c275d6445099e1d8e7587eb9f13bc7d87f4e5f5600d765e45384e16af52fec6aace9d52ce0495316f5d14419050e24f5c4032c17d59371e3a0ae59d9dbdfbd792231c7a933b1911b8597ec18cff028393924376ef0d3b68556c9d0f</script>
-</div>
-<script src="/lib/blog-encrypt.js"></script><link href="/css/blog-encrypt.css" rel="stylesheet" type="text/css">
+                <h2 id="加工中心训练图"><a href="#加工中心训练图" class="headerlink" title="加工中心训练图"></a>加工中心训练图</h2><h3 id="技师训练图"><a href="#技师训练图" class="headerlink" title="技师训练图"></a>技师训练图</h3><h4 id="二维零件自动编程及加工训练"><a href="#二维零件自动编程及加工训练" class="headerlink" title="二维零件自动编程及加工训练"></a>二维零件自动编程及加工训练</h4><h5 id="加工中心技师训练图（1）"><a href="#加工中心技师训练图（1）" class="headerlink" title="加工中心技师训练图（1）"></a>加工中心技师训练图（1）</h5><p><img src="https://cdn.jsdelivr.net/gh/hefeijie/hefeijie-imgs/images/20200220140845.jpg" alt=""></p>
+<h4 id="曲面加工训练（一）"><a href="#曲面加工训练（一）" class="headerlink" title="曲面加工训练（一）"></a>曲面加工训练（一）</h4><h5 id="加工中心技师训练图（3）"><a href="#加工中心技师训练图（3）" class="headerlink" title="加工中心技师训练图（3）"></a>加工中心技师训练图（3）</h5><p><img src="https://cdn.jsdelivr.net/gh/hefeijie/hefeijie-imgs/images/20200220140939.jpg" alt=""></p>
+<script>
+        document.querySelectorAll('.github-emoji')
+          .forEach(el => {
+            if (!el.dataset.src) { return; }
+            const img = document.createElement('img');
+            img.style = 'display:none !important;';
+            img.src = el.dataset.src;
+            img.addEventListener('error', () => {
+              img.remove();
+              el.style.color = 'inherit';
+              el.style.backgroundImage = 'none';
+              el.style.background = 'none';
+            });
+            img.addEventListener('load', () => {
+              img.remove();
+            });
+            document.body.appendChild(img);
+          });
+      </script>
             </div>
             <hr/>
 
@@ -822,32 +841,6 @@
         </div>
     </div>
 
-    
-        <link rel="stylesheet" href="/libs/gitalk/gitalk.css">
-<link rel="stylesheet" href="/css/my-gitalk.css">
-
-<div class="card gitalk-card" data-aos="fade-up">
-    <div class="comment_headling" style="font-size: 20px; font-weight: 700; position: relative; left: 20px; top: 15px; padding-bottom: 5px;">
-        <i class="fas fa-comments fa-fw" aria-hidden="true"></i>
-        <span>评论</span>
-    </div>
-    <div id="gitalk-container" class="card-content"></div>
-</div>
-
-<script src="/libs/gitalk/gitalk.min.js"></script>
-<script>
-    let gitalk = new Gitalk({
-        clientID: 'f34a6e034661952028fc',
-        clientSecret: '0b3005405947cd27bdfc9c4b2ead2e091ad4c6b5',
-        repo: 'hefeijie.github.io',
-        owner: 'hefeijie',
-        admin: "hefeijie",
-        id: '2020-02-20T09-48-38',
-        distractionFreeMode: false  // Facebook-like distraction free mode
-    });
-
-    gitalk.render('gitalk-container');
-</script>
     
 
     
@@ -1143,13 +1136,7 @@
                 <div class="card-content article-content">
                     <div class="summary">
                         
-                            
-  
-  
-    请输入密码以阅读这篇私密文章。
-    
-  
-  da7a97ded9596b74df0502c5d0801ea07
+                            因属于技术文件，请联系作者获取密码
                         
                     </div>
                     <div class="publish-info">
@@ -1190,8 +1177,7 @@
                 <a href="/2020/02/19/how-to-install-mastercam/">
                     <div class="card-image">
                         
-                        
-                        <img src="/medias/featureimages/2.jpg" class="responsive-img" alt="如何安装MasterCAM">
+                        <img src="https://cdn.jsdelivr.net/gh/hefeijie/hefeijie-imgs/images/20200220171310.jpg" class="responsive-img" alt="如何安装MasterCAM">
                         
                         <span class="card-title">如何安装MasterCAM</span>
                     </div>
@@ -1200,9 +1186,6 @@
                     <div class="summary">
                         
                             本文主要讲解安装MasterCAM软件的主要步骤
-
-
-写在前面因为众所周知的原因，我们的课堂不得不利用网络进行，因条件限制，我们的课程在网络
                         
                     <div class="publish-info">
                             <span class="publish-date">
@@ -1638,9 +1621,20 @@ $(function () {
     
 
     
-
+    <script type="text/javascript" color="0,0,255"
+        pointColor="0,0,255" opacity='0.7'
+        zIndex="-1" count="99"
+        src="/libs/background/canvas-nest.js"></script>
     
 
+    
+    
+    <script type="text/javascript" size="150" alpha='0.6'
+        zIndex="-1" src="/libs/background/ribbon-refresh.min.js" async="async"></script>
+    
+
+    
+    <script type="text/javascript" src="/libs/background/ribbon-dynamic.js" async="async"></script>
     
     
     

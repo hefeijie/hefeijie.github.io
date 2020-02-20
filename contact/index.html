@@ -425,9 +425,9 @@
                      var typed = new Typed("#subtitle", {
                          strings: ['从来没有真正的绝境, 只有心灵的迷途','花开不是为了花落，而是为了开的更加灿烂。'],
                          startDelay: 300,
-                         typeSpeed: 100,
+                         typeSpeed: 300,
                          loop: true,
-                         backSpeed: 50,
+                         backSpeed: 100,
                          showCursor: true
                      });
                  </script>
@@ -479,32 +479,6 @@
             </div>
         </div>
         <div class="card">
-            
-            <link rel="stylesheet" href="/libs/gitalk/gitalk.css">
-<link rel="stylesheet" href="/css/my-gitalk.css">
-
-<div class="card gitalk-card" data-aos="fade-up">
-    <div class="comment_headling" style="font-size: 20px; font-weight: 700; position: relative; left: 20px; top: 15px; padding-bottom: 5px;">
-        <i class="fas fa-comments fa-fw" aria-hidden="true"></i>
-        <span>评论</span>
-    </div>
-    <div id="gitalk-container" class="card-content"></div>
-</div>
-
-<script src="/libs/gitalk/gitalk.min.js"></script>
-<script>
-    let gitalk = new Gitalk({
-        clientID: 'f34a6e034661952028fc',
-        clientSecret: '0b3005405947cd27bdfc9c4b2ead2e091ad4c6b5',
-        repo: 'hefeijie.github.io',
-        owner: 'hefeijie',
-        admin: "hefeijie",
-        id: '2018-09-30T17-25-30',
-        distractionFreeMode: false  // Facebook-like distraction free mode
-    });
-
-    gitalk.render('gitalk-container');
-</script>
             
 
             
@@ -1018,9 +992,20 @@ $(function () {
     
 
     
-
+    <script type="text/javascript" color="0,0,255"
+        pointColor="0,0,255" opacity='0.7'
+        zIndex="-1" count="99"
+        src="/libs/background/canvas-nest.js"></script>
     
 
+    
+    
+    <script type="text/javascript" size="150" alpha='0.6'
+        zIndex="-1" src="/libs/background/ribbon-refresh.min.js" async="async"></script>
+    
+
+    
+    <script type="text/javascript" src="/libs/background/ribbon-dynamic.js" async="async"></script>
     
     
     
