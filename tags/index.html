@@ -482,6 +482,15 @@
                 </a>
                 
                 
+                <a href="/categories/Mastercam2020/" title="Mastercam2020: 1">
+                    <span class="chip center-align waves-effect waves-light
+                             chip-default "
+                            style="background-color: #D5F5E3;">Mastercam2020
+                        <span class="tag-length">1</span>
+                    </span>
+                </a>
+                
+                
             </div>
         </div>
     </div>
@@ -506,7 +515,7 @@
 <script type="text/javascript">
     
 
-    $('#tag-wordcloud').jQCloud([{"text":"教程","weight":1,"link":"https://hefeijie.github.io/tags/教程/"},{"text":"文件","weight":1,"link":"https://hefeijie.github.io/tags/文件/"}], {
+    $('#tag-wordcloud').jQCloud([{"text":"教程","weight":1,"link":"https://hefeijie.github.io/tags/教程/"},{"text":"文件","weight":1,"link":"https://hefeijie.github.io/tags/文件/"},{"text":"培训课程","weight":1,"link":"https://hefeijie.github.io/tags/培训课程/"}], {
         autoResize: true
     });
 </script>
@@ -537,6 +546,15 @@
                     <span class="chip center-align waves-effect waves-light
                              chip-default "
                             data-tagname="文件" style="background-color: #F5EEF8;">文件
+                        <span class="tag-length">1</span>
+                    </span>
+                </a>
+                
+                
+                <a href="/tags/%E5%9F%B9%E8%AE%AD%E8%AF%BE%E7%A8%8B/" title="培训课程: 1">
+                    <span class="chip center-align waves-effect waves-light
+                             chip-default "
+                            data-tagname="培训课程" style="background-color: #D5F5E3;">培训课程
                         <span class="tag-length">1</span>
                     </span>
                 </a>
@@ -581,7 +599,7 @@
                     color: '#3C4858'
                 }
             },
-            indicator: [{"name":"MasterCAM","max":2},{"name":"图纸","max":2}],
+            indicator: [{"name":"MasterCAM","max":2},{"name":"图纸","max":2},{"name":"Mastercam2020","max":2}],
             nameGap: 5,
             center: ['50%','55%'],
             radius: '66%'
@@ -592,7 +610,7 @@
             itemStyle: {normal: {areaStyle: {type: 'default'}}},
             data : [
                 {
-                    value : [1,1],
+                    value : [1,1,1],
                     name : '文章分类数量'
                 }
             ]
@@ -705,7 +723,7 @@
                 type: 'pie',
                 radius: '50%',
                 color: ['#6772e5', '#ff9e0f', '#fa755a', '#3ecf8e', '#82d3f4', '#ab47bc', '#525f7f', '#f51c47', '#26A69A'],
-                data: [{"name":"MasterCAM","value":1},{"name":"图纸","value":1}],
+                data: [{"name":"MasterCAM","value":1},{"name":"图纸","value":1},{"name":"Mastercam2020","value":1}],
                 itemStyle: {
                     emphasis: {
                         shadowBlur: 10,
@@ -729,7 +747,7 @@
         xAxis: [
             {
                 type: 'category',
-                data: ["教程","文件"]
+                data: ["教程","文件","培训课程"]
             }
         ],
         yAxis: [
@@ -742,7 +760,7 @@
                 type: 'bar',
                 color: ['#82d3f4'],
                 barWidth : 18,
-                data: [1,1],
+                data: [1,1,1],
                 markPoint: {
                     symbolSize: 45,
                     data: [{
